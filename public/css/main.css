@@ -9,13 +9,30 @@ body {
 
 .welcome__text {
   color: red;
+  margin-top: 100px;
 }
 
 .welcome__image img {
   max-height: 250px;
   max-width: 250px;
 }
-
+.contact-form {
+  margin: 10px 100px 0px 100px ;
+}
+.login-form {
+  margin: 10px 100px 0px 100px ;
+}
 .contact-form__submit {
   text-align: right
 }
+.heading {
+  margin-top: 100px;
+}
+.margin {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/*.active {
+
+}*/

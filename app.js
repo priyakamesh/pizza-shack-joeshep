@@ -8,6 +8,7 @@ const app = express();
 // pug template configuration
 app.set('view engine', 'pug');
 
+app.locals.company= "Pizza Shack 🍕"
 
 // Middlewares
 app.use(express.static('public'))
@@ -22,9 +23,19 @@ app.get('/', (req, res, next) => {
   res.render('index')
 })
 
+app.get('/about', (req,res,next)=>{
+  res.render('about',{page:'About'})
+})
+app.get('/contact',(req,res,next)=>{
+  res.render('contact',{page:'Contact'})
+});
+app.get('/login',(req,res,next)=>{
+  res.render('login',{page:'Login'})
+});
 
-
-
+app.use((req,res)=>{
+  res.render('404');
+});
 
 
 

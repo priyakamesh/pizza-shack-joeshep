@@ -5,6 +5,7 @@ const express = require('express');
 const app = express();
 const routes = require('./routes/');
 
+app.set('views', __dirname + '/views1');
 // pug template configuration
 app.set('view engine', 'pug');
 

@@ -13,9 +13,6 @@ app.locals.company= "Pizza Shack 🍕"
 // Middlewares
 app.use(express.static('public'))
 app.use(routes);
-app.get('/register',(req,res,next)=>{
-  res.render('register',{page:'Register'})
-});
 app.use((req,res)=>{
   res.render('404');
 });

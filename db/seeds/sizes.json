@@ -1,0 +1,26 @@
+[
+    {
+        "size_name": "Fun",
+        "inches": 2
+    },
+    {
+        "size_name": "Personal",
+        "inches": 8
+    },
+    {
+        "size_name": "Small",
+        "inches": 10
+    },
+    {
+        "size_name": "Medium",
+        "inches": 12
+    },
+    {
+        "size_name": "Large",
+        "inches": 14
+    },
+    {
+        "size_name": "Murica",
+        "inches": 1776
+    }
+]
